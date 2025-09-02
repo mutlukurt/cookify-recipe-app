@@ -52,7 +52,7 @@ npm run dev
   <img src="assets/6.png" width="250"/>
 
   <!-- Row 3 -->
-  <img src="assets/7.png" width="750"/>
+  <img src="assets/7.png" width="250"/>
 
 </div>
 
