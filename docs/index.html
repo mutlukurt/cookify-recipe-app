@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cookify</title>
+  <script type="module" crossorigin src="/assets/index-D0fcn729.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BXVhYgyI.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Header -->
+    <header class="header">
+      <h1>Cookify</h1>
+      <div class="avatar"></div>
+    </header>
+
+    <!-- Search -->
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Search recipes or ingredients..." />
+    </div>
+
+    <!-- Category Chips -->
+    <div class="chips-container">
+      <button class="chip active" data-category="all">All</button>
+      <button class="chip" data-category="quick">Quick</button>
+      <button class="chip" data-category="breakfast">Breakfast</button>
+      <button class="chip" data-category="lunch">Lunch</button>
+      <button class="chip" data-category="dinner">Dinner</button>
+      <button class="chip" data-category="vegan">Vegan</button>
+      <button class="chip" data-category="dessert">Dessert</button>
+    </div>
+
+    <!-- Quick Filters -->
+    <div class="filters-container">
+      <button class="filter-toggle" data-filter="quick-time">
+        <span class="filter-icon" data-icon="clock"></span> &lt;30min
+      </button>
+      <button class="filter-toggle" data-filter="easy">
+        <span class="filter-icon" data-icon="check"></span> Easy
+      </button>
+      <button class="filter-toggle" data-filter="vegan">
+        <span class="filter-icon" data-icon="leaf"></span> Vegan
+      </button>
+    </div>
+
+    <!-- Main Content -->
+    <main id="main-content" class="main-content">
+      <!-- Recipe cards will be rendered here -->
+    </main>
+
+    <!-- Bottom Navigation -->
+    <nav class="bottom-nav">
+      <button class="nav-item active" data-tab="home">
+        <span class="nav-icon" data-icon="home"></span>
+        <span>Home</span>
+      </button>
+      <button class="nav-item" data-tab="favorites">
+        <span class="nav-icon" data-icon="heart"></span>
+        <span>Favorites</span>
+      </button>
+      <button class="nav-item" data-tab="list">
+        <span class="nav-icon" data-icon="list"></span>
+        <span>List</span>
+      </button>
+      <button class="nav-item" data-tab="profile">
+        <span class="nav-icon" data-icon="user"></span>
+        <span>Profile</span>
+      </button>
+    </nav>
+
+    <!-- Detail Sheet Overlay -->
+    <div id="detail-overlay" class="detail-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="detail-sheet">
+        <div id="detail-content"></div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
