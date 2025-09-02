@@ -1,5 +1,7 @@
 # 🍳 Cookify Recipe App
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Cookify%20Recipe%20App-brightgreen?style=for-the-badge)](https://mutlukurt.github.io/cookify-recipe-app/)
+
 A modern, responsive recipe management application built with vanilla JavaScript and Vite. Cookify helps you discover, save, and organize your favorite recipes with an intuitive user interface.
 
 ## ✨ Features
